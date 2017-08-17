@@ -56,9 +56,9 @@ const TablePage = () => {
           <TableHeader>
             <TableRow>
               <TableHeaderColumn style={styles.columns.id}>ID</TableHeaderColumn>
-              <TableHeaderColumn style={styles.columns.name}>Name</TableHeaderColumn>
+              <TableHeaderColumn style={styles.columns.name}>Sent To</TableHeaderColumn>
               <TableHeaderColumn style={styles.columns.price}>Price</TableHeaderColumn>
-              <TableHeaderColumn style={styles.columns.category}>Category</TableHeaderColumn>
+              {/* <TableHeaderColumn style={styles.columns.category}>Category</TableHeaderColumn> */}
               <TableHeaderColumn style={styles.columns.edit}>Edit</TableHeaderColumn>
             </TableRow>
           </TableHeader>
@@ -68,7 +68,7 @@ const TablePage = () => {
                 <TableRowColumn style={styles.columns.id}>{item.id}</TableRowColumn>
                 <TableRowColumn style={styles.columns.name}>{item.name}</TableRowColumn>
                 <TableRowColumn style={styles.columns.price}>{item.price}</TableRowColumn>
-                <TableRowColumn style={styles.columns.category}>{item.category}</TableRowColumn>
+                {/* <TableRowColumn style={styles.columns.category}>{item.category}</TableRowColumn> */}
                 <TableRowColumn style={styles.columns.edit}>
                   <Link className="button" to="/form">
                     <FloatingActionButton zDepth={0}

@@ -32,24 +32,24 @@ const FormPage = () => {
   };
 
   return (
-    <PageBase title="Form Page"
+    <PageBase title="Conduct Transaction"
               navigation="Application / Form Page">
       <form>
 
         <TextField
           hintText="Name"
-          floatingLabelText="Name"
+          floatingLabelText="Other Party"
           fullWidth={true}
         />
 
-        <SelectField
-          floatingLabelText="City"
+        <TextField
+          floatingLabelText="Ether Amount"
           value=""
-          fullWidth={true}>
-          <MenuItem key={0} primaryText="London"/>
+          fullWidth={true}/>
+          {/* <MenuItem key={0} primaryText="London"/>
           <MenuItem key={1} primaryText="Paris"/>
           <MenuItem key={2} primaryText="Rome"/>
-        </SelectField>
+        </SelectField> */}
 
         <DatePicker
           hintText="Expiration Date"
