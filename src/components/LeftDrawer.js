@@ -51,24 +51,25 @@ const LeftDrawer = (props) => {
       docked={true}
       open={navDrawerOpen}>
         <div style={styles.logo}>
-          Material Admin
+         StackCoin
         </div>
         <div style={styles.avatar.div}>
-          <Avatar src="http://www.material-ui.com/images/uxceo-128.jpg"
+          <Avatar src="http://www.trbimg.com/img-588768dc/turbine/la-et-hc-actor-dev-patel-20170124"
                   size={50}
                   style={styles.avatar.icon}/>
           <span style={styles.avatar.span}>{props.username}</span>
         </div>
         <div>
-          {props.menus.map((menu, index) =>
+          {props.menus.map((menu, index) => //What was there before
             <MenuItem
               key={index}
               style={styles.menuItem}
-              primaryText={menu.text}
+              primaryText= "Fullstack Coin"//{menu.text} 
               leftIcon={menu.icon}
               containerElement={<Link to={menu.link}/>}
             />
           )}
+          
         </div>
     </Drawer>
   );

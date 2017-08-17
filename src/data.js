@@ -34,20 +34,20 @@ const data = {
       {id: 3, title: 'Apple iPhone 6', text: 'Apple iPhone 6 Plus 16GB Factory Unlocked GSM 4G '},
       {id: 4, title: 'Apple MacBook', text: 'Apple MacBook Pro MD101LL/A 13.3-Inch Laptop'}
     ],
-    monthlySales: [
-      {name: 'Jan', uv: 3700},
-      {name: 'Feb', uv: 3000},
-      {name: 'Mar', uv: 2000},
-      {name: 'Apr', uv: 2780},
-      {name: 'May', uv: 2000},
-      {name: 'Jun', uv: 1800},
-      {name: 'Jul', uv: 2600},
-      {name: 'Aug', uv: 2900},
-      {name: 'Sep', uv: 3500},
-      {name: 'Oct', uv: 3000},
-      {name: 'Nov', uv: 2400},
-      {name: 'Dec', uv: 2780}
-    ],
+    // monthlySales: [
+    //   {name: 'Jan', uv: 3700},
+    //   {name: 'Feb', uv: 3000},
+    //   {name: 'Mar', uv: 2000},
+    //   {name: 'Apr', uv: 2780},
+    //   {name: 'May', uv: 2000},
+    //   {name: 'Jun', uv: 1800},
+    //   {name: 'Jul', uv: 2600},
+    //   {name: 'Aug', uv: 2900},
+    //   {name: 'Sep', uv: 3500},
+    //   {name: 'Oct', uv: 3000},
+    //   {name: 'Nov', uv: 2400},
+    //   {name: 'Dec', uv: 2780}
+    // ],
     newOrders: [
       {pv: 2400},
       {pv: 1398},
