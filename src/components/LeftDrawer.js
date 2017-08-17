@@ -64,7 +64,7 @@ const LeftDrawer = (props) => {
             <MenuItem
               key={index}
               style={styles.menuItem}
-              primaryText= "Fullstack Coin"//{menu.text} 
+              primaryText= {menu.text}    //{menu.text} 
               leftIcon={menu.icon}
               containerElement={<Link to={menu.link}/>}
             />

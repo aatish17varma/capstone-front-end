@@ -23,7 +23,7 @@ const DashboardPage = () => {
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
           <InfoBox Icon={ShoppingCart}
                    color={pink600}
-                   title="Total Profit"
+                   title="Coin Amount"
                    value="1500k"
           />
         </div>
@@ -32,7 +32,7 @@ const DashboardPage = () => {
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
           <InfoBox Icon={ThumbUp}
                    color={cyan600}
-                   title="Likes"
+                   title="Users"
                    value="4231"
           />
         </div>
@@ -40,7 +40,7 @@ const DashboardPage = () => {
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
           <InfoBox Icon={Assessment}
                    color={purple600}
-                   title="Sales"
+                   title="Transactions"
                    value="460"
           />
         </div>
